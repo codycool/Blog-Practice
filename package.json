@@ -1,0 +1,33 @@
+{
+  "name": "blog-practice",
+  "version": "1.0.0",
+  "description": "Express + React + Mongodb - Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codycool/Blog-Practice.git"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codycool/Blog-Practice/issues"
+  },
+  "homepage": "https://github.com/codycool/Blog-Practice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10"
+  }
+}
