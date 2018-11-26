@@ -8,11 +8,11 @@ mongoose.connection.on('connected', () => {
 })
 
 mongoose.connection.on('error', (err) => {
-    threw `mogo connection: ${err}`
+    throw `mongo connection: ${err}`
 })
 
 mongoose.connection.on('disconnected', () => {
-    console.log('mogo connection disconnected')
+    console.log('mongo connection disconnected')
 })
 
 process.on('SIGINT', () => {
