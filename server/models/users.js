@@ -22,13 +22,6 @@ const UserSchema = new Schema({
         type: String,
         required: true,
     },
-    isEmailActived: {
-        type: Boolean,
-        default: false,
-    },
-    verifyEmailToken: {
-        type: String,
-    },
 },{timestamps: true})
 
 UserSchema.virtual('password')

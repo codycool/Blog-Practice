@@ -27,6 +27,14 @@ const ArticleShema = new Schema({
         type: String,
         require: true,
     },
+    viewCount:{
+        type: Number,
+        default: 0,
+    },
+    isPublish: {
+        type: Boolean,
+        default: false,
+    },
 }, {timestamps: true})
 
 
